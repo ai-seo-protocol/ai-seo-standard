@@ -1,0 +1,13 @@
+{
+  "ai-seo-version": "1.0",
+  "entity-type": "winery",
+  "metadata": {
+    "domain": "example-winery.com",
+    "lastUpdate": "2025-01-01T00:00:00Z"
+  },
+  "data": {
+    "name": "Example Winery",
+    "city": "Sambuca di Sicilia",
+    "country": "IT"
+  }
+}
