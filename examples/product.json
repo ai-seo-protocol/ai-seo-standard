@@ -1,0 +1,12 @@
+{
+  "ai-seo-version": "1.0",
+  "entity-type": "product",
+  "metadata": {
+    "domain": "example.com",
+    "lastUpdate": "2025-01-01T00:00:00Z"
+  },
+  "data": {
+    "name": "Example Product",
+    "category": "Electronics"
+  }
+}
