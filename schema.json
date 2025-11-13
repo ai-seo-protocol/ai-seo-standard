@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI-SEO Protocol Schema v1.0",
+  "type": "object",
+  "required": [
+    "ai-seo-version",
+    "entity-type",
+    "metadata",
+    "data"
+  ],
+  "properties": {
+    "ai-seo-version": {
+      "type": "string"
+    },
+    "entity-type": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    },
+    "priority": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "metadata": {
+      "type": "object",
+      "required": [
+        "domain",
+        "lastUpdate"
+      ],
+      "properties": {
+        "domain": {
+          "type": "string"
+        },
+        "lastUpdate": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "language": {
+          "type": "string"
+        }
+      }
+    },
+    "data": {
+      "type": "object"
+    }
+  }
+}
